@@ -32,7 +32,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="TurretRight"/>
                                 <connections>
-                                    <action selector="turretRIghtPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HeP-1D-jEK"/>
+                                    <action selector="turretRightPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7hS-tm-ggo"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" placeholderIntrinsicWidth="75" placeholderIntrinsicHeight="75" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9wi-pV-tT9" userLabel="TurretLeft">

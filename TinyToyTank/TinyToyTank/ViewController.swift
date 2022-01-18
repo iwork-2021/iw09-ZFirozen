@@ -19,7 +19,7 @@ class ViewController: UIViewController {
         
         // Load the "Box" scene from the "Experience" Reality File
         tankAnchor = try! TinyToyTank.load_TinyToyTank()
-        tankAnchor?.turret?.setParent(tankAnchor!.tank, preservingWorldTransform: true)
+        tankAnchor!.turret?.setParent(tankAnchor!.tank, preservingWorldTransform: true)
         tankAnchor?.actions.actionComplete.onAction = { _ in
             self.isActionPlaying = false
         }
